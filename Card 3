@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>Medical Card</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.medical-card {
+  width: 500px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.medical-card h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.medical-card p {
+  margin: 0 0 10px 0;
+}
+
+.medical-card .patient-info {
+  margin-top: 10px;
+}
+
+.medical-card .patient-info .name {
+  font-weight: bold;
+}
+
+.medical-card .patient-info .condition {
+  margin-top: 5px;
+}
+
+.medical-card .patient-info .doctor {
+  margin-top: 5px;
+}
+
+.medical-card .patient-info .date {
+  margin-top: 5px;
+}
+
+.medical-card img {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+}
+</style>
+</head>
+<body>
+<div class="medical-card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Red_Cross_Logo.svg/1200px-Red_Cross_Logo.svg.png" alt="Red Cross Logo">
+  <h1>Medical Card</h1>
+  <div class="patient-info">
+    <p class="name">James Haley</p>
+    <p class="condition">Melanoma</p>
+    <p class="doctor">Dr. Smith</p>
+    <p class="date">May 28, 2023</p>
+  </div>
+  <p>This card is to certify that James Haley is a patient of the Red Cross and has been diagnosed with melanoma.</p>
+  <p>This card should be presented to any medical professional who provides care to James Haley.</p>
+</div>
+</body>
+</html>
